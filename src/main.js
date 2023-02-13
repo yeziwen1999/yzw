@@ -14,6 +14,10 @@ import router from './router'
 
 import '@/icons' // icon
 import '@/permission' // permission control
+import API from '@/api'
+
+Vue.prototype.$API = API
+
 
 /**
  * If you don't want to use mock-server
